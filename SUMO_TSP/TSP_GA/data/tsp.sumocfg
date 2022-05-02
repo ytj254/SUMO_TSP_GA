@@ -1,0 +1,6 @@
+<configuration>
+    <input>
+        <net-file value="tsp.net.xml" />
+        <route-files value="tsp100.rou.xml" />
+    </input>
+</configuration>

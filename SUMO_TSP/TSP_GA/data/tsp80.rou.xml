@@ -1,0 +1,47 @@
+<routes>
+    <vType id="car" carFollowModel="IDM" vClass="passenger" maxSpeed="13.89" tau="1.1"/>
+    <vType id="cav" carFollowModel="IDM" vClass="passenger" maxSpeed="13.89" tau="0.6"/>
+    <vType id="bus" carFollowModel="IDM" vClass="bus" maxSpeed="12.5" color="0,1,0"/>
+
+
+    <flow id="NW" begin="0" end="3600" probability="0.01" from="E3" to="-E0" departSpeed="max" type="car" departLane="random" depart="0"/>
+        <flow id="NW.cav" begin="0" end="3600" probability="0.04" from="E3" to="-E0" departSpeed="max" type="cav" departLane="random" depart="0"/>
+
+    <flow id="NS" begin="0" end="3600" probability="0.004" from="E3" to="-E2" departSpeed="max" type="car" departLane="random" depart="0"/>
+        <flow id="NS.cav" begin="0" end="3600" probability="0.016" from="E3" to="-E2" departSpeed="max" type="cav" departLane="random" depart="0"/>
+
+    <flow id="NE" begin="0" end="3600" probability="0.006" from="E3" to="-E1" departSpeed="max" type="car" departLane="random" depart="0"/>
+        <flow id="NE.cav" begin="0" end="3600" probability="0.024" from="E3" to="-E1" departSpeed="max" type="cav" departLane="random" depart="0"/>
+
+
+    <flow id="EW" begin="0" end="3600" probability="0.03" from="E1" to="-E0" departSpeed="max" type="car" departLane="free" depart="0"/>
+        <flow id="EW.cav" begin="0" end="3600" probability="0.12" from="E1" to="-E0" departSpeed="max" type="cav" departLane="free" depart="0"/>
+
+    <flow id="ES" begin="0" end="3600" probability="0.006" from="E1" to="-E2" departSpeed="max" type="car" departLane="free" depart="0"/>
+        <flow id="ES.cav" begin="0" end="3600" probability="0.024" from="E1" to="-E2" departSpeed="max" type="cav" departLane="free" depart="0"/>
+
+
+    <flow id="SE" begin="0" end="3600" probability="0.01" from="E2" to="-E1" departSpeed="max" type="car" departLane="random" depart="0"/>
+        <flow id="SE.cav" begin="0" end="3600" probability="0.04" from="E2" to="-E1" departSpeed="max" type="cav" departLane="random" depart="0"/>
+
+    <flow id="SN" begin="0" end="3600" probability="0.004" from="E2" to="-E3" departSpeed="max" type="car" departLane="random" depart="0"/>
+        <flow id="SN.cav" begin="0" end="3600" probability="0.016" from="E2" to="-E3" departSpeed="max" type="cav" departLane="random" depart="0"/>
+
+    <flow id="SW" begin="0" end="3600" probability="0.006" from="E2" to="-E0" departSpeed="max" type="car" departLane="random" depart="0"/>
+        <flow id="SW.cav" begin="0" end="3600" probability="0.024" from="E2" to="-E0" departSpeed="max" type="cav" departLane="random" depart="0"/>
+
+
+    <flow id="WE" begin="0" end="3600" probability="0.02" from="E0" to="-E1" departSpeed="max" type="car" departLane="free" depart="0"/>
+        <flow id="WE.cav" begin="0" end="3600" probability="0.08" from="E0" to="-E1" departSpeed="max" type="cav" departLane="free" depart="0"/>
+
+    <flow id="WN" begin="0" end="3600" probability="0.004" from="E0" to="-E3" departSpeed="max" type="car" departLane="free" depart="0"/>
+        <flow id="WN.cav" begin="0" end="3600" probability="0.016" from="E0" to="-E3" departSpeed="max" type="cav" departLane="free" depart="0"/>
+
+
+    <flow id="BEW" begin="0" end="3600" probability="0.0035" from="E1" to="-E0" departSpeed="max" type="bus" departLane="free" depart="0"/>
+    <flow id="BWE" begin="0" end="3600" probability="0.0035" from="E0" to="-E1" departSpeed="max" type="bus" departLane="free" depart="0"/>
+
+</routes>
+
+
+

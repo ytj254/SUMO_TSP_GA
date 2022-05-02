@@ -1,0 +1,6 @@
+<addtional>
+    <inductionLoop id="w0" lane="E0_0" pos="440" freq="300" file="decinfo.xml" friendlyPos="x" />
+    <inductionLoop id="w1" lane="E0_1" pos="440" freq="300" file="decinfo.xml" friendlyPos="x" />
+    <inductionLoop id="e0" lane="E1_0" pos="440" freq="300" file="decinfo.xml" friendlyPos="x" />
+    <inductionLoop id="e1" lane="E1_1" pos="440" freq="300" file="decinfo.xml" friendlyPos="x" />
+</addtional>
