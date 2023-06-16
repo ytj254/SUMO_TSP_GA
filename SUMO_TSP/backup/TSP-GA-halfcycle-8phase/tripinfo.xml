@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-07-05 15:31:35 by Eclipse SUMO GUI Version 1.13.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="data/Eastway-Central.net.xml"/>
+        <route-files value="data/cav100.rou.xml"/>
+        <additional-files value="data/Eastway-Central.add.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="tripinfo.xml"/>
+    </output>
+
+    <time>
+        <step-length value="0.1"/>
+    </time>
+
+    <report>
+        <verbose value="true"/>
+        <log value="logfile.xml"/>
+        <duration-log.statistics value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="51559"/>
+    </traci_server>
+
+    <gui_only>
+        <tracker-interval value="0.1"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+    <tripinfo id="SN.cav.3" depart="15.30" departLane="-E3_2" departPos="5.10" departSpeed="23.30" departDelay="0.00" arrival="124.60" arrivalLane="-E1_0" arrivalPos="983.25" arrivalSpeed="23.30" duration="109.30" routeLength="1995.02" waitingTime="13.50" waitingCount="1" stopTime="0.00" timeLoss="23.68" rerouteNo="1" devices="tripinfo_SN.cav.3 routing_SN.cav.3" vType="cav" speedFactor="1.16" vaporized=""/>
+    <tripinfo id="NS.cav.1" depart="7.90" departLane="E1_2" departPos="5.10" departSpeed="21.94" departDelay="0.00" arrival="127.00" arrivalLane="E3_1" arrivalPos="983.03" arrivalSpeed="21.94" duration="119.10" routeLength="1995.03" waitingTime="18.20" waitingCount="1" stopTime="0.00" timeLoss="28.18" rerouteNo="1" devices="tripinfo_NS.cav.1 routing_NS.cav.1" vType="cav" speedFactor="1.09" vaporized=""/>
+    <tripinfo id="NS.cav.0" depart="2.50" departLane="E1_1" departPos="5.10" departSpeed="21.78" departDelay="0.00" arrival="127.30" arrivalLane="E3_0" arrivalPos="983.03" arrivalSpeed="21.78" duration="124.80" routeLength="1995.03" waitingTime="23.60" waitingCount="1" stopTime="0.00" timeLoss="33.21" rerouteNo="1" devices="tripinfo_NS.cav.0 routing_NS.cav.0" vType="cav" speedFactor="1.08" vaporized=""/>
+    <tripinfo id="SN.cav.6" depart="20.20" departLane="-E3_1" departPos="5.10" departSpeed="22.42" departDelay="0.00" arrival="128.10" arrivalLane="-E1_1" arrivalPos="983.25" arrivalSpeed="22.77" duration="107.90" routeLength="1995.02" waitingTime="6.30" waitingCount="1" stopTime="0.00" timeLoss="20.26" rerouteNo="1" devices="tripinfo_SN.cav.6 routing_SN.cav.6" vType="cav" speedFactor="1.13" vaporized=""/>
+    <tripinfo id="SN.cav.0" depart="1.20" departLane="-E3_1" departPos="5.10" departSpeed="21.33" departDelay="0.00" arrival="129.10" arrivalLane="-E1_0" arrivalPos="983.25" arrivalSpeed="21.30" duration="127.90" routeLength="1995.02" waitingTime="24.00" waitingCount="1" stopTime="0.00" timeLoss="34.30" rerouteNo="1" devices="tripinfo_SN.cav.0 routing_SN.cav.0" vType="cav" speedFactor="1.06" vaporized=""/>
+    <tripinfo id="SN.cav.7" depart="24.40" departLane="-E3_1" departPos="5.10" departSpeed="23.58" departDelay="0.00" arrival="130.90" arrivalLane="-E1_1" arrivalPos="983.25" arrivalSpeed="23.25" duration="106.50" routeLength="1995.02" waitingTime="1.40" waitingCount="1" stopTime="0.00" timeLoss="21.79" rerouteNo="1" devices="tripinfo_SN.cav.7 routing_SN.cav.7" vType="cav" speedFactor="1.17" vaporized=""/>
+</tripinfos>
