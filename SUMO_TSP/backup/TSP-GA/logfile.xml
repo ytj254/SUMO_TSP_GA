@@ -1,0 +1,37 @@
+***Starting server on port 51765 ***
+Loading net-file from 'data/Eastway-Central.net.xml' ... done (4ms).
+Warning: Missing yellow phase in tlLogic 'J1', program '0' for tl-index 4 when switching to phase 3
+Warning: Missing yellow phase in tlLogic 'J1', program '0' for tl-index 4 when switching to phase 6
+Warning: Missing yellow phase in tlLogic 'J1', program '0' for tl-index 0 when switching to phase 9
+Loading additional-files from 'data/Eastway-Central.add.xml' ... done (1ms).
+Loading done.
+Simulation version 1.13.0 started with time: 0.00
+Warning: Missing yellow phase in tlLogic 'J1', program 'custom' for tl-index 4 when switching to phase 4
+Warning: Missing yellow phase in tlLogic 'J1', program 'custom' for tl-index 4 when switching to phase 7
+Warning: Missing yellow phase in tlLogic 'J1', program 'custom' for tl-index 0 when switching to phase 10
+Warning: Vehicle 'SE.cav.253' performs emergency braking on lane '-E3.443_0' with decel=9.00, wished=4.50, severity=1.00, time=3157.00.
+Warning: Vehicle 'SE.cav.253' performs emergency braking on lane '-E3.443_0' with decel=9.00, wished=4.50, severity=1.00, time=3157.60.
+Warning: Vehicle 'SE.cav.299' performs emergency braking on lane '-E3.443_0' with decel=9.00, wished=4.50, severity=1.00, time=3639.00.
+Warning: Vehicle 'SE.cav.299' performs emergency stop at the end of lane '-E3.443_0' because of a red traffic light (decel=-12.89, offset=0.16), time=3639.10.
+Simulation ended at time: 3781.80
+Reason: TraCI requested termination.
+Performance: 
+ Duration: 1241.00s
+ TraCI-Duration: 1215.08s
+ Real time factor: 3.04737
+ UPS: 4608.064606
+Vehicles: 
+ Inserted: 4067
+ Running: 0
+ Waiting: 0
+Emergency Stops: 1
+Statistics (avg):
+ RouteLength: 1990.77
+ Speed: 14.65
+ Duration: 140.61
+ WaitingTime: 17.65
+ TimeLoss: 29.09
+ DepartDelay: 0.00
+
+DijkstraRouter answered 4067 queries and explored 5.00 edges on average.
+DijkstraRouter spent 0.01s answering queries (0.00ms on average).
