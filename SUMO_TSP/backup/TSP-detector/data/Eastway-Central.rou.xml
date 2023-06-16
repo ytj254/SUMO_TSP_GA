@@ -1,0 +1,25 @@
+<routes>
+    <vType id="car" carFollowModel="IDM" vClass="passenger"/>
+    <vType id="bus" carFollowModel="IDM" vClass="bus" color="0,1,0"/>
+
+    <flow id="NW" begin="0" end="3600" probability="0.05" from="E1" to="-E0"  departSpeed="max" type="car" departLane="best" depart="0"/>
+    <flow id="NS" begin="0" end="3600" probability="0.22" from="E1" to="E3"   departSpeed="max" type="car" departLane="best" depart="0"/>
+    <flow id="NE" begin="0" end="3600" probability="0.03" from="E1" to="E2"   departSpeed="max" type="car" departLane="best" depart="0"/>
+
+    <flow id="EN" begin="0" end="3600" probability="0.02" from="-E2" to="-E1" departSpeed="max" type="car" departLane="best" depart="0"/>
+    <flow id="EW" begin="0" end="3600" probability="0.1"  from="-E2" to="-E0" departSpeed="max" type="car" departLane="best" depart="0"/>
+    <flow id="ES" begin="0" end="3600" probability="0.06" from="-E2" to="E3"  departSpeed="max" type="car" departLane="best" depart="0"/>
+
+
+    <flow id="SE" begin="0" end="3600" probability="0.09" from="-E3" to="E2"  departSpeed="max" type="car" departLane="best" depart="0"/>
+    <flow id="SN" begin="0" end="3600" probability="0.25" from="-E3" to="-E1" departSpeed="max" type="car" departLane="best" depart="0"/>
+    <flow id="SW" begin="0" end="3600" probability="0.05" from="-E3" to="-E0" departSpeed="max" type="car" departLane="best" depart="0"/>
+
+    <flow id="WS" begin="0" end="3600" probability="0.05" from="E0" to="E3"   departSpeed="max" type="car" departLane="best" depart="0"/>
+    <flow id="WE" begin="0" end="3600" probability="0.15" from="E0" to="E2"   departSpeed="max" type="car" departLane="best" depart="0"/>
+    <flow id="WN" begin="0" end="3600" probability="0.07" from="E0" to="-E1"  departSpeed="max" type="car" departLane="best" depart="0"/>
+
+    <flow id="BNS" begin="0" end="3600" period="300" from="E1" to="E3" departSpeed="max" type="bus" departLane="best" depart="0"/>
+    <flow id="BSN" begin="120" end="3600" period="300" from="-E3" to="-E1" departSpeed="max" type="bus" departLane="best" depart="0"/>
+
+</routes>
