@@ -1,0 +1,56 @@
+***Starting server on port 60633 ***
+Loading net-file from 'data/Eastway-Central.net.xml' ... done (4ms).
+Warning: Missing yellow phase in tlLogic 'J1', program '0' for tl-index 4 when switching to phase 3
+Warning: Missing yellow phase in tlLogic 'J1', program '0' for tl-index 4 when switching to phase 6
+Warning: Missing yellow phase in tlLogic 'J1', program '0' for tl-index 0 when switching to phase 9
+Loading additional-files from 'data/Eastway-Central.add.xml' ... done (1ms).
+Loading done.
+Simulation started with time: 0.00
+Warning: Vehicle 'SE.2' performs emergency braking on lane '-E3.443_0' with decel=9.00, wished=4.50, severity=1.00, time=84.80.
+Warning: Vehicle 'SE.11' performs emergency braking on lane ':J1_9_0' with decel=9.00, wished=4.50, severity=1.00, time=195.40.
+Warning: Vehicle 'NS.55' performs emergency braking on lane 'E1.449_1' with decel=9.00, wished=4.50, severity=1.00, time=300.10.
+Warning: Vehicle 'NS.55' performs emergency stop at the end of lane 'E1.449_1' because of a red traffic light (decel=-18.79, offset=0.82), time=300.40.
+Warning: Vehicle 'SE.23' performs emergency braking on lane '-E3.443_0' with decel=9.00, wished=4.50, severity=1.00, time=363.20.
+Warning: Vehicle 'EN.5' performs emergency braking on lane '-E2_0' with decel=9.00, wished=4.50, severity=1.00, time=386.20.
+Warning: Vehicle 'SN.98' performs emergency braking on lane '-E3_2' with decel=9.00, wished=4.50, severity=1.00, time=400.40.
+Warning: Vehicle 'EW.56' performs emergency braking on lane '-E2.430_1' with decel=9.00, wished=4.50, severity=1.00, time=664.20.
+Warning: Vehicle 'NW.39' performs emergency braking on lane 'E1.449_0' with decel=9.00, wished=4.50, severity=1.00, time=769.00.
+Warning: Vehicle 'WE.92' performs emergency braking on lane 'E0.438_0' with decel=9.00, wished=4.50, severity=1.00, time=786.20.
+Warning: Vehicle 'SE.68' performs emergency braking on lane '-E3.443_0' with decel=9.00, wished=4.50, severity=1.00, time=838.30.
+Warning: Vehicle 'NW.44' performs emergency braking on lane ':J1_0_0' with decel=9.00, wished=4.50, severity=1.00, time=876.90.
+Warning: Vehicle 'SN.223' performs emergency braking on lane '-E3_2' with decel=9.00, wished=4.50, severity=1.00, time=919.30.
+Warning: Vehicle 'SW.38' performs emergency braking on lane '-E3.443_3' with decel=9.00, wished=4.50, severity=1.00, time=1020.10.
+Warning: Vehicle 'SW.38' performs emergency stop at the end of lane '-E3.443_3' because of a red traffic light (decel=-14.27, offset=0.22), time=1020.20.
+Warning: Vehicle 'NW.55' performs emergency braking on lane 'E1.449_0' with decel=9.00, wished=4.50, severity=1.00, time=1151.50.
+Warning: Vehicle 'SW.51' performs emergency braking on lane '-E3_3' with decel=9.00, wished=4.50, severity=1.00, time=1183.00.
+Warning: Vehicle 'NS.240' performs emergency braking on lane 'E1.449_1' with decel=9.00, wished=4.50, severity=1.00, time=1320.10.
+Warning: Vehicle 'NS.240' performs emergency stop at the end of lane 'E1.449_1' because of a red traffic light (decel=-14.14, offset=0.12), time=1320.70.
+Warning: Vehicle 'EW.140' performs emergency braking on lane '-E2.430_1' with decel=9.00, wished=4.50, severity=1.00, time=1500.10.
+Warning: Vehicle 'EW.140' performs emergency stop at the end of lane '-E2.430_1' because of a red traffic light (decel=-15.52, offset=0.06), time=1500.10.
+Warning: Vehicle 'EW.139' performs emergency braking on lane '-E2.430_0' with decel=9.00, wished=4.50, severity=1.00, time=1500.10.
+Warning: Vehicle 'WE.221' performs emergency braking on lane 'E0.438_1' with decel=9.00, wished=4.50, severity=1.00, time=1500.10.
+Warning: Vehicle 'EW.139' performs emergency stop at the end of lane '-E2.430_0' because of a red traffic light (decel=-14.54, offset=0.52), time=1500.20.
+Warning: Vehicle 'WE.221' performs emergency stop at the end of lane 'E0.438_1' because of a red traffic light (decel=-12.81, offset=0.01), time=1500.60.
+Warning: Vehicle 'SE.130' performs emergency braking on lane '-E3.443_0' with decel=9.00, wished=4.50, severity=1.00, time=1619.20.
+Warning: Vehicle 'SE.130' performs emergency stop at the end of lane '-E3.443_0' because of a red traffic light (decel=-11.11, offset=0.18), time=1619.50.
+Simulation ended at time: 1620.20
+Performance: 
+ Duration: 494.10s
+ TraCI-Duration: 256.52s
+ Real time factor: 3.27907
+ UPS: 5882.164245
+Vehicles: 
+ Inserted: 1833
+ Running: 184
+ Waiting: 0
+Emergency Stops: 7
+Statistics (avg):
+ RouteLength: 1990.70
+ Speed: 12.68
+ Duration: 166.90
+ WaitingTime: 36.75
+ TimeLoss: 55.61
+ DepartDelay: 0.00
+
+DijkstraRouter answered 1833 queries and explored 5.01 edges on average.
+DijkstraRouter spent 0.00s answering queries (0.00ms on average).
