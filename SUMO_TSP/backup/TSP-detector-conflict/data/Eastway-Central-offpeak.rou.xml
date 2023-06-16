@@ -1,0 +1,27 @@
+<routes>
+    <vType id="car" carFollowModel="IDM" vClass="passenger"/>
+    <vType id="cav" carFollowModel="IDM" vClass="passenger" color="0,1,1"/>
+    <vType id="bus" carFollowModel="IDM" vClass="bus" color="0,1,0"/>
+<!--    <vType id="av" carFollowModel="IDM" vClass="passenger" color="0,1,1" tau="0.9"/>-->
+
+    <flow id="NW" begin="0" end="3600" probability="0.04" from="E1" to="-E0"  departSpeed="max" type="car" departLane="best" depart="0"/>
+    <flow id="NS" begin="0" end="3600" probability="0.2" from="E1" to="E3"   departSpeed="max" type="car" departLane="best" depart="0"/>
+    <flow id="NE" begin="0" end="3600" probability="0.01" from="E1" to="E2"   departSpeed="max" type="car" departLane="best" depart="0"/>
+
+    <flow id="EN" begin="0" end="3600" probability="0.01" from="-E2" to="-E1" departSpeed="max" type="car" departLane="best" depart="0"/>
+    <flow id="EW" begin="0" end="3600" probability="0.09"  from="-E2" to="-E0" departSpeed="max" type="car" departLane="best" depart="0"/>
+    <flow id="ES" begin="0" end="3600" probability="0.07" from="-E2" to="E3"  departSpeed="max" type="car" departLane="best" depart="0"/>
+
+
+    <flow id="SE" begin="0" end="3600" probability="0.03" from="-E3" to="E2"  departSpeed="max" type="car" departLane="best" depart="0"/>
+    <flow id="SN" begin="0" end="3600" probability="0.15" from="-E3" to="-E1" departSpeed="max" type="car" departLane="best" depart="0"/>
+    <flow id="SW" begin="0" end="3600" probability="0.04" from="-E3" to="-E0" departSpeed="max" type="car" departLane="best" depart="0"/>
+
+    <flow id="WS" begin="0" end="3600" probability="0.04" from="E0" to="E3"   departSpeed="max" type="car" departLane="best" depart="0"/>
+    <flow id="WE" begin="0" end="3600" probability="0.05" from="E0" to="E2"   departSpeed="max" type="car" departLane="best" depart="0"/>
+    <flow id="WN" begin="0" end="3600" probability="0.03" from="E0" to="-E1"  departSpeed="max" type="car" departLane="best" depart="0"/>
+
+    <flow id="BNS" begin="0" end="3600" period="300" from="E1" to="E3" departSpeed="max" type="bus" departLane="best" depart="0"/>
+    <flow id="BSN" begin="120" end="3600" period="300" from="-E3" to="-E1" departSpeed="max" type="bus" departLane="best" depart="0"/>
+
+</routes>

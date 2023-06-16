@@ -1,0 +1,35 @@
+<add>
+<!--    <tlLogic id="J1" programID="TSP" type="static">-->
+<!--        <phase duration="10" state="gGGrrrrrrgGGrrrrrr"></phase>-->
+<!--    </tlLogic>-->
+
+    <tlLogic id="J1" offset="0" programID="NEMA" type="NEMA">
+        <param key="detector-length" value="20"/>
+        <param key="detector-length-leftTurnLane" value="5"/>
+        <param key="total-cycle-length" value="130"/>
+        <param key="ring1" value="1,2,3,4"/>
+        <param key="ring2" value="5,6,7,8"/>
+        <param key="barrierPhases" value="2,6"/>
+        <param key="coordinate-mode" value="false"/>
+        <param key="barrier2Phases" value="4,8"/>
+        <param key="minRecall" value="2,6"/>
+        <param key="maxRecall" value=""/>
+        <param key="whetherOutputState" value="true"/>
+        <param key="fixForceOff" value="false"/>
+        <param key="show-detectors" value="false" />
+
+        <phase duration="99" minDur="5"  maxDur="20" vehext="2" yellow="3" red="2" name="1" state="grrrgrrrrgrrrgrrGG"/>
+        <phase duration="99" minDur="12" maxDur="40" vehext="2" yellow="3" red="2" name="2" state="grrrgGGrrgrrrgrrrr"/>
+        <phase duration="99" minDur="5"  maxDur="40" vehext="2" yellow="3" red="2" name="3" state="grrrgrrrrgrrGgrrrr"/>
+        <phase duration="99" minDur="12" maxDur="35" vehext="2" yellow="3" red="2" name="4" state="gGGrgrrrrgrrrgrrrr"/>
+        <phase duration="99" minDur="5"  maxDur="20" vehext="2" yellow="3" red="2" name="5" state="grrrgrrGGgrrrgrrrr"/>
+        <phase duration="99" minDur="12" maxDur="30" vehext="2" yellow="3" red="2" name="6" state="grrrgrrrrgrrrgGGrr"/>
+        <phase duration="99" minDur="5"  maxDur="20" vehext="2" yellow="3" red="2" name="7" state="grrGgrrrrgrrrgrrrr"/>
+        <phase duration="99" minDur="12" maxDur="37" vehext="2" yellow="3" red="2" name="8" state="grrrgrrrrgGGrgrrrr"/>
+    </tlLogic>
+
+<!--    <inductionLoop id="S0" lane="-E3.401_1" pos="15" freq="300" file="decinfo.xml" vTypes="bus" friendlyPos="true" />-->
+<!--    <inductionLoop id="S1" lane="-E3.401_2" pos="15" freq="300" file="decinfo.xml" vTypes="bus" friendlyPos="true" />-->
+<!--    <inductionLoop id="N0" lane="E1_1" pos="385" freq="300" file="decinfo.xml" vTypes="bus" friendlyPos="true" />-->
+<!--    <inductionLoop id="N1" lane="E1_2" pos="385" freq="300" file="decinfo.xml" vTypes="bus" friendlyPos="true" />-->
+</add>

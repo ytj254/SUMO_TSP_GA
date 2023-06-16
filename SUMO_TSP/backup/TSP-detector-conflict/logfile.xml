@@ -1,0 +1,105 @@
+***Starting server on port 54807 ***
+Loading net-file from 'data/Eastway-Central.net.xml' ... done (3ms).
+Warning: Missing yellow phase in tlLogic 'J1', program '0' for tl-index 0 when switching to phase 1
+Warning: Missing yellow phase in tlLogic 'J1', program '0' for tl-index 5 when switching to phase 2
+Warning: Missing yellow phase in tlLogic 'J1', program '0' for tl-index 12 when switching to phase 3
+Warning: Missing yellow phase in tlLogic 'J1', program '0' for tl-index 1 when switching to phase 4
+Warning: Missing yellow phase in tlLogic 'J1', program '0' for tl-index 7 when switching to phase 5
+Warning: Missing yellow phase in tlLogic 'J1', program '0' for tl-index 14 when switching to phase 6
+Warning: Missing yellow phase in tlLogic 'J1', program '0' for tl-index 3 when switching to phase 7
+Warning: Missing yellow phase in tlLogic 'J1', program '0' for tl-index 10 when switching to phase 0
+Loading additional-files from 'data/Eastway-Central.add.xml' ... 
+Warning: At NEMA tlLogic 'J1', the phases before barrier 1 from both rings do not add up. (ring1=70.00, ring2=60.00)
+Warning: At NEMA tlLogic 'J1', the phases before barrier 2 from both rings do not add up. (ring1=85.00, ring2=67.00)
+done (2ms).
+Loading done.
+Simulation version 1.13.0 started with time: 0.00
+Warning: Vehicle 'WS.cav.1' performs emergency braking on lane 'E0_0' with decel=9.00, wished=4.50, severity=1.00, time=24.10.
+Warning: Vehicle 'SE.cav.2' performs emergency braking on lane '-E3.443_0' with decel=9.00, wished=4.50, severity=1.00, time=45.20.
+Warning: Vehicle 'WS.cav.9' performs emergency braking on lane ':J1_13_0' with decel=9.00, wished=4.50, severity=1.00, time=137.00.
+Warning: Vehicle 'SE.cav.9' performs emergency braking on lane '-E3.443_0' with decel=9.00, wished=4.50, severity=1.00, time=141.40.
+Warning: Vehicle 'SE.cav.19' performs emergency braking on lane '-E3.443_0' with decel=9.00, wished=4.50, severity=1.00, time=226.20.
+Warning: Vehicle 'WE.cav.36' performs emergency braking on lane 'E0.438_0' with decel=9.00, wished=4.50, severity=1.00, time=255.30.
+Warning: Vehicle 'SN.cav.76' performs emergency braking on lane '-E3.443_1' with decel=9.00, wished=4.50, severity=1.00, time=315.80.
+Warning: Vehicle 'SN.cav.77' performs emergency braking on lane '-E3.443_2' with decel=9.00, wished=4.50, severity=1.00, time=315.80.
+Warning: Vehicle 'SN.cav.77' performs emergency stop at the end of lane '-E3.443_2' because of a red traffic light (decel=-23.97, offset=1.11), time=316.20.
+Warning: Vehicle 'SN.cav.76' performs emergency stop at the end of lane '-E3.443_1' because of a red traffic light (decel=-17.85, offset=0.22), time=316.80.
+Warning: Vehicle 'SE.cav.39' performs emergency braking on lane '-E3.443_0' with decel=9.00, wished=4.50, severity=1.00, time=528.50.
+Warning: Vehicle 'NS.cav.122' performs emergency braking on lane 'E1_2' with decel=9.00, wished=4.50, severity=1.00, time=552.30.
+Warning: Vehicle 'SN.cav.151' performs emergency braking on lane '-E3_1' with decel=9.00, wished=4.50, severity=1.00, time=571.90.
+Warning: Vehicle 'SE.cav.50' performs emergency braking on lane '-E3_0' with decel=9.00, wished=4.50, severity=1.00, time=606.80.
+Warning: Vehicle 'SE.cav.55' performs emergency braking on lane ':J1_9_0' with decel=9.00, wished=4.50, severity=1.00, time=663.10.
+Warning: Vehicle 'NS.cav.174' performs emergency braking on lane 'E1.449_1' with decel=9.00, wished=4.50, severity=1.00, time=810.80.
+Warning: Vehicle 'SN.cav.206' performs emergency braking on lane '-E3.443_2' with decel=9.00, wished=4.50, severity=1.00, time=810.80.
+Warning: Vehicle 'NW.cav.35' performs emergency braking on lane 'E1.449_0' with decel=9.00, wished=4.50, severity=1.00, time=817.20.
+Warning: Vehicle 'SW.cav.55' performs emergency braking on lane '-E3_3' with decel=9.00, wished=4.50, severity=1.00, time=1184.30.
+Warning: Vehicle 'SE.cav.107' performs emergency braking on lane '-E3.443_0' with decel=9.00, wished=4.50, severity=1.00, time=1281.50.
+Warning: Vehicle 'SE.cav.117' performs emergency braking on lane ':J1_9_0' with decel=9.00, wished=4.50, severity=1.00, time=1356.30.
+Warning: Vehicle 'SN.cav.367' performs emergency braking on lane '-E3_2' with decel=9.00, wished=4.50, severity=1.00, time=1431.00.
+Warning: Vehicle 'NW.cav.61' performs emergency braking on lane 'E1.449_0' with decel=9.00, wished=4.50, severity=1.00, time=1437.50.
+Warning: Vehicle 'NW.cav.63' performs emergency braking on lane 'E1.449_0' with decel=9.00, wished=4.50, severity=1.00, time=1456.80.
+Warning: Vehicle 'NS.cav.336' performs emergency braking on lane 'E1.449_2' with decel=9.00, wished=4.50, severity=1.00, time=1540.50.
+Warning: Vehicle 'SN.cav.386' performs emergency braking on lane '-E3.443_2' with decel=9.00, wished=4.50, severity=1.00, time=1540.50.
+Warning: Vehicle 'SN.cav.387' performs emergency braking on lane '-E3.443_1' with decel=9.00, wished=4.50, severity=1.00, time=1540.50.
+Warning: Vehicle 'NS.cav.336' performs emergency stop at the end of lane 'E1.449_2' because of a red traffic light (decel=-19.93, offset=0.56), time=1541.00.
+Warning: Vehicle 'SN.cav.386' performs emergency stop at the end of lane '-E3.443_2' because of a red traffic light (decel=-12.79, offset=0.13), time=1541.80.
+Warning: Vehicle 'WS.cav.102' performs emergency braking on lane 'E0_0' with decel=9.00, wished=4.50, severity=1.00, time=1710.60.
+Warning: Vehicle 'NS.cav.391' performs emergency braking on lane 'E1.449_2' with decel=9.00, wished=4.50, severity=1.00, time=1790.40.
+Warning: Vehicle 'NS.cav.391' performs emergency stop at the end of lane 'E1.449_2' because of a red traffic light (decel=-21.58, offset=0.34), time=1790.40.
+Warning: Vehicle 'SE.cav.151' performs emergency braking on lane '-E3.443_0' with decel=9.00, wished=4.50, severity=1.00, time=1805.40.
+Warning: Vehicle 'ES.cav.112' performs emergency braking on lane ':J1_7_1' with decel=9.00, wished=4.50, severity=1.00, time=1814.60.
+Warning: Vehicle 'WN.cav.119' performs emergency braking on lane ':J1_16_1' with decel=9.00, wished=4.50, severity=1.00, time=1814.60.
+Warning: Vehicle 'ES.cav.114' performs emergency braking on lane '-E2.430_3' with decel=9.00, wished=4.50, severity=1.00, time=1814.60.
+Warning: Vehicle 'ES.cav.113' performs emergency braking on lane '-E2.430_2' with decel=9.00, wished=4.50, severity=1.00, time=1814.60.
+Warning: Vehicle 'WN.cav.121' performs emergency braking on lane 'E0.438_3' with decel=9.00, wished=4.50, severity=1.00, time=1814.60.
+Warning: Vehicle 'WN.cav.120' performs emergency braking on lane 'E0.438_2' with decel=9.00, wished=4.50, severity=1.00, time=1814.60.
+Warning: Vehicle 'BNS.4' performs emergency braking on lane 'E1.449_2' with decel=7.00, wished=4.00, severity=1.00, time=1829.60.
+Warning: Vehicle 'BNS.4' performs emergency stop at the end of lane 'E1.449_2' because of a red traffic light (decel=-15.19, offset=0.31), time=1829.60.
+Warning: Vehicle 'NE.cav.47' performs emergency braking on lane 'E1.449_3' with decel=9.00, wished=4.50, severity=1.00, time=1875.70.
+Warning: Vehicle 'NW.cav.95' performs emergency braking on lane 'E1.449_0' with decel=9.00, wished=4.50, severity=1.00, time=2084.00.
+Warning: Vehicle 'EW.cav.219' performs emergency braking on lane '-E2.430_0' with decel=9.00, wished=4.50, severity=1.00, time=2096.10.
+Warning: Vehicle 'WE.cav.308' performs emergency braking on lane 'E0.438_0' with decel=9.00, wished=4.50, severity=1.00, time=2096.10.
+Warning: Vehicle 'WE.cav.308' performs emergency stop at the end of lane 'E0.438_0' because of a red traffic light (decel=-14.35, offset=0.05), time=2096.70.
+Warning: Vehicle 'NW.cav.97' performs emergency braking on lane 'E1.449_0' with decel=9.00, wished=4.50, severity=1.00, time=2157.00.
+Warning: Vehicle 'NS.cav.493' performs emergency braking on lane 'E1_2' with decel=9.00, wished=4.50, severity=1.00, time=2192.20.
+Warning: Vehicle 'NW.cav.103' performs emergency braking on lane 'E1.449_0' with decel=9.00, wished=4.50, severity=1.00, time=2252.20.
+Warning: Vehicle 'SE.cav.206' performs emergency braking on lane '-E3.443_0' with decel=9.00, wished=4.50, severity=1.00, time=2454.50.
+Warning: Vehicle 'SE.cav.227' performs emergency braking on lane ':J1_9_0' with decel=9.00, wished=4.50, severity=1.00, time=2652.50.
+Warning: Vehicle 'SW.cav.126' performs emergency braking on lane '-E3.443_3' with decel=9.00, wished=4.50, severity=1.00, time=2790.30.
+Warning: Vehicle 'SE.cav.245' performs emergency braking on lane '-E3.443_0' with decel=9.00, wished=4.50, severity=1.00, time=2851.10.
+Warning: Vehicle 'NS.cav.647' performs emergency braking on lane 'E1.449_1' with decel=9.00, wished=4.50, severity=1.00, time=2963.20.
+Warning: Vehicle 'SE.cav.254' performs emergency braking on lane ':J1_9_0' with decel=9.00, wished=4.50, severity=1.00, time=2972.50.
+Warning: Vehicle 'WS.cav.159' performs emergency braking on lane ':J1_13_0' with decel=9.00, wished=4.50, severity=1.00, time=3041.60.
+Warning: Vehicle 'WS.cav.159' performs emergency braking on lane ':J1_13_0' with decel=9.00, wished=4.50, severity=1.00, time=3043.80.
+Warning: Vehicle 'NW.cav.146' performs emergency braking on lane 'E1.449_0' with decel=9.00, wished=4.50, severity=1.00, time=3056.00.
+Warning: Vehicle 'SN.cav.788' performs emergency braking on lane '-E3.443_2' with decel=9.00, wished=4.50, severity=1.00, time=3211.20.
+Warning: Vehicle 'NS.cav.688' performs emergency braking on lane 'E1.449_2' with decel=9.00, wished=4.50, severity=1.00, time=3211.20.
+Warning: Vehicle 'NS.cav.688' performs emergency stop at the end of lane 'E1.449_2' because of a red traffic light (decel=-15.82, offset=0.20), time=3211.40.
+Warning: Vehicle 'NS.cav.703' performs emergency braking on lane 'E1.449_1' with decel=9.00, wished=4.50, severity=1.00, time=3290.10.
+Warning: Vehicle 'NS.cav.702' performs emergency braking on lane 'E1.449_2' with decel=9.00, wished=4.50, severity=1.00, time=3290.10.
+Warning: Vehicle 'SN.cav.807' performs emergency braking on lane '-E3.443_2' with decel=9.00, wished=4.50, severity=1.00, time=3290.10.
+Warning: Vehicle 'SW.cav.156' performs emergency braking on lane '-E3_3' with decel=9.00, wished=4.50, severity=1.00, time=3322.60.
+Warning: Vehicle 'WE.cav.542' performs emergency braking on lane 'E0.438_1' with decel=9.00, wished=4.50, severity=1.00, time=3558.10.
+Warning: Vehicle 'SN.cav.877' performs emergency braking on lane '-E3.443_2' with decel=9.00, wished=4.50, severity=1.00, time=3573.10.
+Simulation ended at time: 3709.80
+Reason: TraCI requested termination.
+Performance: 
+ Duration: 59.66s
+ TraCI-Duration: 30.42s
+ Real time factor: 62.1803
+ UPS: 63007.475445
+Vehicles: 
+ Inserted: 4149
+ Running: 0
+ Waiting: 0
+Emergency Stops: 8
+Statistics (avg):
+ RouteLength: 992.96
+ Speed: 11.82
+ Duration: 90.60
+ WaitingTime: 21.33
+ TimeLoss: 34.47
+ DepartDelay: 0.00
+
+DijkstraRouter answered 4149 queries and explored 4.99 edges on average.
+DijkstraRouter spent 0.01s answering queries (0.00ms on average).
