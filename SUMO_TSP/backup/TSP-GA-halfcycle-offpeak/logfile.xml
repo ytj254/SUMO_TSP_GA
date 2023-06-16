@@ -1,0 +1,29 @@
+***Starting server on port 51559 ***
+Loading net-file from 'data/Eastway-Central.net.xml' ... done (3ms).
+Warning: Missing yellow phase in tlLogic 'J1', program '0' for tl-index 4 when switching to phase 3
+Warning: Missing yellow phase in tlLogic 'J1', program '0' for tl-index 4 when switching to phase 6
+Warning: Missing yellow phase in tlLogic 'J1', program '0' for tl-index 0 when switching to phase 9
+Loading additional-files from 'data/Eastway-Central.add.xml' ... done (0ms).
+Loading done.
+Simulation started with time: 0.00
+Warning: Vehicle 'WE.cav.7' performs emergency braking on lane 'E0.438_0' with decel=9.00, wished=4.50, severity=1.00, time=116.00.
+Simulation ended at time: 132.80
+Performance: 
+ Duration: 72.13s
+ TraCI-Duration: 26.45s
+ Real time factor: 1.84109
+ UPS: 1420.748361
+Vehicles: 
+ Inserted: 145
+ Running: 139
+ Waiting: 0
+Statistics (avg):
+ RouteLength: 1995.02
+ Speed: 17.30
+ Duration: 115.92
+ WaitingTime: 14.50
+ TimeLoss: 26.90
+ DepartDelay: 0.00
+
+DijkstraRouter answered 145 queries and explored 5.05 edges on average.
+DijkstraRouter spent 0.00s answering queries (0.00ms on average).
