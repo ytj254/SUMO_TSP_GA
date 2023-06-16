@@ -1,0 +1,33 @@
+***Starting server on port 62918 ***
+Loading net-file from 'data/Eastway-Central.net.xml' ... done (4ms).
+Warning: Missing yellow phase in tlLogic 'J1', program '0' for tl-index 4 when switching to phase 3
+Warning: Missing yellow phase in tlLogic 'J1', program '0' for tl-index 4 when switching to phase 6
+Warning: Missing yellow phase in tlLogic 'J1', program '0' for tl-index 0 when switching to phase 9
+Loading additional-files from 'data/Eastway-Central.add.xml' ... done (0ms).
+Loading done.
+Simulation started with time: 0.00
+Warning: Vehicle 'EN.cav.5' performs emergency braking on lane '-E2_0' with decel=9.00, wished=4.50, severity=1.00, time=386.20.
+Warning: Vehicle 'SN.cav.98' performs emergency braking on lane '-E3_1' with decel=9.00, wished=4.50, severity=1.00, time=400.40.
+Warning: Vehicle 'NW.cav.26' performs emergency braking on lane 'E1_0' with decel=9.00, wished=4.50, severity=1.00, time=446.60.
+Warning: Vehicle 'SE.cav.58' performs emergency braking on lane '-E3.443_0' with decel=9.00, wished=4.50, severity=1.00, time=754.90.
+Warning: Vehicle 'SN.cav.223' performs emergency braking on lane '-E3_2' with decel=9.00, wished=4.50, severity=1.00, time=919.30.
+Simulation ended at time: 1047.10
+Performance: 
+ Duration: 392.58s
+ TraCI-Duration: 248.41s
+ Real time factor: 2.66725
+ UPS: 5504.907318
+Vehicles: 
+ Inserted: 1192
+ Running: 255
+ Waiting: 0
+Statistics (avg):
+ RouteLength: 2990.39
+ Speed: 15.08
+ Duration: 202.03
+ WaitingTime: 17.93
+ TimeLoss: 36.00
+ DepartDelay: 0.00
+
+DijkstraRouter answered 1192 queries and explored 4.99 edges on average.
+DijkstraRouter spent 0.00s answering queries (0.00ms on average).
