@@ -1,0 +1,7 @@
+<configuration>
+    <input>
+        <net-file value="Eastway-Central.net.xml" />
+        <route-files value="Eastway-Central-offpeak.rou.xml" />
+    </input>
+    <step-length value="0.1" />
+</configuration>

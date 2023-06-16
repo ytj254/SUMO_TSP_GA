@@ -1,0 +1,38 @@
+***Starting server on port 62391 ***
+Loading net-file from 'data/Eastway-Central.net.xml' ... done (4ms).
+Warning: Missing yellow phase in tlLogic 'J1', program '0' for tl-index 4 when switching to phase 3
+Warning: Missing yellow phase in tlLogic 'J1', program '0' for tl-index 4 when switching to phase 6
+Warning: Missing yellow phase in tlLogic 'J1', program '0' for tl-index 0 when switching to phase 9
+Loading done.
+Simulation version 1.13.0 started with time: 0.00
+Warning: Vehicle 'SE.8' performs emergency braking on lane '-E3.443_0' with decel=9.00, wished=4.50, severity=1.00, time=207.00.
+Warning: Vehicle 'NW.28' performs emergency braking on lane 'E1.449_0' with decel=9.00, wished=4.50, severity=1.00, time=802.00.
+Warning: Vehicle 'SW.45' performs emergency braking on lane '-E3_3' with decel=9.00, wished=4.50, severity=1.00, time=978.50.
+Warning: Vehicle 'NW.60' performs emergency braking on lane 'E1_0' with decel=9.00, wished=4.50, severity=1.00, time=1520.70.
+Warning: Vehicle 'WS.55' performs emergency braking on lane 'E0.438_0' with decel=9.00, wished=4.50, severity=1.00, time=1573.00.
+Warning: Vehicle 'WE.76' performs emergency braking on lane 'E0_1' with decel=9.00, wished=4.50, severity=1.00, time=1744.80.
+Warning: Vehicle 'WS.73' performs emergency braking on lane 'E0_0' with decel=9.00, wished=4.50, severity=1.00, time=1927.40.
+Warning: Vehicle 'WS.125' performs emergency braking on lane 'E0_0' with decel=9.00, wished=4.50, severity=1.00, time=2979.10.
+Warning: Vehicle 'NS.640' performs emergency braking on lane 'E1_1' with decel=9.00, wished=4.50, severity=1.00, time=3236.30.
+Warning: Vehicle 'SN.532' performs emergency braking on lane '-E3_2' with decel=9.00, wished=4.50, severity=1.00, time=3597.40.
+Simulation ended at time: 3728.10
+Reason: TraCI requested termination.
+Performance: 
+ Duration: 17.17s
+ TraCI-Duration: 3.29s
+ Real time factor: 217.167
+ UPS: 159236.325508
+Vehicles: 
+ Inserted: 2813
+ Running: 0
+ Waiting: 0
+Statistics (avg):
+ RouteLength: 993.32
+ Speed: 11.30
+ Duration: 97.18
+ WaitingTime: 29.30
+ TimeLoss: 41.55
+ DepartDelay: 0.00
+
+DijkstraRouter answered 2813 queries and explored 5.04 edges on average.
+DijkstraRouter spent 0.00s answering queries (0.00ms on average).
