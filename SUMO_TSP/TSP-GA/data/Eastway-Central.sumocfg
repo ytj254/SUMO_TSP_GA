@@ -1,8 +1,0 @@
-<configuration>
-    <input>
-        <net-file value="Eastway-Central.net.xml" />
-        <route-files value="cav100.rou.xml" />
-        <additional-files value="Eastway-Central.add.xml" />
-    </input>
-    <step-length value="0.1" />
-</configuration>
